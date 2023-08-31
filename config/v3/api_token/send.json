@@ -42,8 +42,7 @@
                     "payments",
                     "admin"
                 ]
-            },
-            "uniqueItems": true
+            }
         },
         "valid_for_current_ip_only": {
             "description": "[Optional] If you set this parameter during token creation, then the token created will only work for the IP address that was used to create the token",
@@ -54,9 +53,8 @@
             ]
         },
         "passthrough": {
-            "description": "[Optional] Used to pass data through the websocket, which may be retrieved via the `echo_req` output field. Maximum size is 3500 bytes.",
-            "type": "object",
-            "maxSize": 3500
+            "description": "[Optional] Used to pass data through the websocket, which may be retrieved via the `echo_req` output field.",
+            "type": "object"
         },
         "req_id": {
             "description": "[Optional] Used to map request to response.",

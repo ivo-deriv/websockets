@@ -95,15 +95,15 @@
                                                         "type": "string"
                                                     },
                                                     "location": {
-                                                        "description": "Server location.",
+                                                        "description": "Sever location.",
                                                         "type": "string"
                                                     },
                                                     "region": {
-                                                        "description": "Server region.",
+                                                        "description": "Sever region.",
                                                         "type": "string"
                                                     },
                                                     "sequence": {
-                                                        "description": "Server sequence.",
+                                                        "description": "Sever sequence.",
                                                         "type": "integer"
                                                     }
                                                 }
@@ -189,15 +189,15 @@
                                         "type": "string"
                                     },
                                     "location": {
-                                        "description": "Server location.",
+                                        "description": "Sever location.",
                                         "type": "string"
                                     },
                                     "region": {
-                                        "description": "Server region.",
+                                        "description": "Sever region.",
                                         "type": "string"
                                     },
                                     "sequence": {
-                                        "description": "Server sequence.",
+                                        "description": "Sever sequence.",
                                         "type": "integer"
                                     }
                                 }
@@ -232,8 +232,7 @@
                         "enum": [
                             "standard",
                             "financial",
-                            "financial_stp",
-                            "swap_free"
+                            "financial_stp"
                         ]
                     }
                 }
